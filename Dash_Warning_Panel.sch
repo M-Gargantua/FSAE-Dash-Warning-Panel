@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:Dash_Warning_Panel-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -122,7 +121,7 @@ U 1 1 5BB63633
 P 4750 2850
 F 0 "C1" H 4775 2950 50  0000 L CNN
 F 1 "1uF" H 4775 2750 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206" H 4788 2700 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 4788 2700 50  0001 C CNN
 F 3 "" H 4750 2850 50  0001 C CNN
 	1    4750 2850
 	-1   0    0    1   
@@ -173,8 +172,6 @@ Wire Wire Line
 	4750 2700 5200 2700
 Connection ~ 5000 2550
 Connection ~ 5000 2700
-Wire Wire Line
-	2350 3000 5200 3000
 Connection ~ 4750 3000
 Connection ~ 5000 1000
 $Comp
@@ -532,7 +529,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 3750 4300 3350
 Wire Wire Line
-	4500 3050 4500 3000
+	4500 3000 4500 3050
 Connection ~ 4500 3000
 Wire Wire Line
 	5000 4050 5200 4050
@@ -597,10 +594,10 @@ Wire Wire Line
 Wire Wire Line
 	3900 5600 6750 5600
 $Comp
-L TPS22810-Q1 U3
+L TPS22810-Q1 U2
 U 1 1 5BB93DC6
 P 3550 1150
-F 0 "U3" H 3550 1575 50  0000 C CNN
+F 0 "U2" H 3550 1575 50  0000 C CNN
 F 1 "TPS22810-Q1" H 3550 1500 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 3550 1650 50  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fds%2Fsymlink%2Ftps22810-q1.pdf" H 3500 1450 50  0001 C CNN
@@ -616,7 +613,7 @@ U 1 1 5BB945A9
 P 2800 1600
 F 0 "C5" H 2825 1700 50  0000 L CNN
 F 1 "1uF" H 2825 1500 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206" H 2838 1450 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 2838 1450 50  0001 C CNN
 F 3 "" H 2800 1600 50  0001 C CNN
 	1    2800 1600
 	-1   0    0    1   
@@ -636,7 +633,7 @@ U 1 1 5BB9528F
 P 4350 1600
 F 0 "C6" H 4375 1700 50  0000 L CNN
 F 1 "1uF" H 4375 1500 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206" H 4388 1450 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 4388 1450 50  0001 C CNN
 F 3 "" H 4350 1600 50  0001 C CNN
 	1    4350 1600
 	-1   0    0    1   
@@ -646,29 +643,21 @@ Wire Wire Line
 $Comp
 L R R6
 U 1 1 5BB95761
-P 3000 2400
-F 0 "R6" V 3080 2400 50  0000 C CNN
-F 1 "68k" V 3000 2400 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206" V 2930 2400 50  0001 C CNN
-F 3 "" H 3000 2400 50  0001 C CNN
-	1    3000 2400
-	-1   0    0    1   
+P 4100 3200
+F 0 "R6" V 4180 3200 50  0000 C CNN
+F 1 "68k" V 4100 3200 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 4030 3200 50  0001 C CNN
+F 3 "" H 4100 3200 50  0001 C CNN
+	1    4100 3200
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 3000 3000 2550
-Connection ~ 3000 3000
-Wire Wire Line
-	3000 1400 3000 2250
+	3000 1400 3000 4100
 Wire Wire Line
 	3000 1400 3050 1400
 Wire Wire Line
 	4150 4700 4150 5250
 Connection ~ 4250 5250
-Wire Wire Line
-	4150 2100 4150 4100
-Wire Wire Line
-	4150 2100 3000 2100
-Connection ~ 3000 2100
 $Comp
 L C C7
 U 1 1 5BB95E92
@@ -713,12 +702,12 @@ Text Label 2350 3600 2    60   ~ 0
 SDO
 Text Label 2350 3800 2    60   ~ 0
 CLK
-Text Label 3150 2100 2    60   ~ 0
+Text Label 3150 4100 2    60   ~ 0
 EN
 Text Label 5200 3750 2    60   ~ 0
 OE
 Wire Wire Line
-	4300 3050 4300 3000
+	4300 3000 4300 3050
 Text Label 6650 1800 2    43   ~ 0
 B7
 Text Label 6650 1950 2    43   ~ 0
@@ -817,7 +806,7 @@ Wire Wire Line
 Connection ~ 5000 3400
 Connection ~ 5000 2850
 Wire Wire Line
-	4700 3050 4700 3000
+	4700 3000 4700 3050
 Connection ~ 4700 3000
 Wire Wire Line
 	5200 3150 4950 3150
@@ -834,4 +823,14 @@ Wire Wire Line
 	4350 1450 4350 1400
 Wire Wire Line
 	4350 1400 4050 1400
+Connection ~ 4100 3000
+Wire Wire Line
+	4100 3000 4100 3050
+Wire Wire Line
+	2350 3000 5200 3000
+Wire Wire Line
+	4100 3350 4100 4100
+Wire Wire Line
+	3000 4100 4150 4100
+Connection ~ 4100 4100
 $EndSCHEMATC
