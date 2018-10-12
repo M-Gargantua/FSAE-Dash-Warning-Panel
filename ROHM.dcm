@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BD2808MUV
+D ROHM 24 Channel Constant Current LED Driver
+K LED Driver
+$ENDCMP
+#
+#End Doc Library

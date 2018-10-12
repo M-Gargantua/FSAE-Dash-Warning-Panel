@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LED_RGB
+D Wurth LED RGB 6 pins
+K led rgb diode Wurth
+$ENDCMP
+#
+$CMP LED_RGB_Wurth
+D Wurth LED RGB 6 pins
+K led rgb diode Wurth
+$ENDCMP
+#
+#End Doc Library

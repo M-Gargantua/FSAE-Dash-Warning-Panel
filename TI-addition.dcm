@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS22810-Q1
+D Single power-distribution switcher
+K 1-chanel power-distribution USB
+F http://www.ti.com/lit/ds/symlink/tps2041.pdf
+$ENDCMP
+#
+#End Doc Library
