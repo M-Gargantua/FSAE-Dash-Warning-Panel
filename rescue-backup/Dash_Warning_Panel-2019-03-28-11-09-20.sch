@@ -1,6 +1,41 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ROHM
+LIBS:WurthElektronik
+LIBS:TI-addition
 LIBS:Dash_Warning_Panel-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,100 +50,92 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ROHM:BD2808MUV U1
+L BD2808MUV U1
 U 1 1 5BB61F1D
 P 5400 4600
 F 0 "U1" H 5800 3700 60  0000 C CNN
 F 1 "BD2808MUV" H 5850 3800 60  0000 C CNN
 F 2 "Housings_DFN_QFN:QFN-48-1EP_7x7mm_Pitch0.5mm" H 5800 3650 60  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/348/bd2808muv-m-e-1266220.pdf" H 5800 3650 60  0001 C CNN
-F 4 "	‎BD2808MUV-ME2" H 0   0   50  0001 C CNN "P/N"
 	1    5400 4600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L C C2
 U 1 1 5BB632BF
 P 5000 1150
 F 0 "C2" H 5025 1250 50  0000 L CNN
 F 1 "4.7uF" H 5025 1050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206" H 5038 1000 50  0001 C CNN
 F 3 "" H 5000 1150 50  0001 C CNN
-F 4 "	‎C1206C475Z4VACTU" H 0   0   50  0001 C CNN "P/N"
 	1    5000 1150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L C C3
 U 1 1 5BB6332B
 P 5300 1150
 F 0 "C3" H 5325 1250 50  0000 L CNN
 F 1 "4.7uF" H 5325 1050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206" H 5338 1000 50  0001 C CNN
 F 3 "" H 5300 1150 50  0001 C CNN
-F 4 "	‎C1206C475Z4VACTU" H 0   0   50  0001 C CNN "P/N"
 	1    5300 1150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
+L C C4
 U 1 1 5BB6335E
 P 5600 1150
 F 0 "C4" H 5625 1250 50  0000 L CNN
 F 1 "4.7uF" H 5625 1050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206" H 5638 1000 50  0001 C CNN
 F 3 "" H 5600 1150 50  0001 C CNN
-F 4 "	‎C1206C475Z4VACTU" H 0   0   50  0001 C CNN "P/N"
 	1    5600 1150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
+L R R2
 U 1 1 5BB634DF
 P 4500 3200
 F 0 "R2" V 4400 3200 50  0000 C CNN
 F 1 "68k" V 4500 3200 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206" V 4430 3200 50  0001 C CNN
 F 3 "" H 4500 3200 50  0001 C CNN
-F 4 "	‎CRGP1206F68K‎" H 0   0   50  0001 C CNN "P/N"
 	1    4500 3200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L R R1
 U 1 1 5BB63595
 P 4700 3200
 F 0 "R1" V 4800 3200 50  0000 C CNN
 F 1 "68k" V 4700 3200 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206" V 4630 3200 50  0001 C CNN
 F 3 "" H 4700 3200 50  0001 C CNN
-F 4 "	‎CRGP1206F68K‎" H 0   0   50  0001 C CNN "P/N"
 	1    4700 3200
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C1
+L C C1
 U 1 1 5BB63633
 P 4750 2850
 F 0 "C1" H 4775 2950 50  0000 L CNN
 F 1 "1uF" H 4775 2750 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 4788 2700 50  0001 C CNN
 F 3 "" H 4750 2850 50  0001 C CNN
-F 4 "	‎C0805C105J4RACTU" H 0   0   50  0001 C CNN "P/N"
 	1    4750 2850
 	-1   0    0    1   
 $EndComp
 Text Notes 8550 1550 0    60   ~ 0
 Pdmax (with margain) = 3200mW\nVout(min) @ 30mA = 1.2V, @ 40mA = 1.5V\nP = (Vin-Vf) x If\nPr = (5v - 2v) x 30mA = 90mW, Vout = 3v\nPb = (5v - 3.2v) x 30mA = 54mW, Vout =1.8v\nPg = (5v - 3.2v) x 30mA = 54mW, Vout = 1.8v\nVout < 3200mW/(30mA x 24) < 4.4V\nVoutMin < Vout < Pd/(If x 24)\nVcc - Vf - Vout/Ifmax < R\n=> No R necessary\n
 $Comp
-L WurthElektronik:LED_RGB_Wurth D7
+L LED_RGB_Wurth D7
 U 1 1 5BB66862
 P 7100 2250
 F 0 "D7" H 7100 2620 50  0000 C CNN
 F 1 "LED_RGB_Wurth" H 7100 1900 50  0001 C CNN
 F 2 "Wurth:LED_RGB_3528" H 7100 2200 50  0001 C CNN
 F 3 "" H 7100 2200 50  0001 C CNN
-F 4 "	‎150352M173300" H 0   0   50  0001 C CNN "P/N"
 	1    7100 2250
 	1    0    0    1   
 $EndComp
@@ -126,36 +153,35 @@ Wire Wire Line
 	5000 1950 5200 1950
 Connection ~ 5000 2100
 Wire Wire Line
-	2800 1800 2950 1800
+	2800 1800 5200 1800
 Connection ~ 5000 1950
 Connection ~ 5000 1800
 Wire Wire Line
-	4050 1000 4700 1000
+	4050 1000 8100 1000
 Connection ~ 5300 1000
 Wire Wire Line
-	5000 1300 5300 1300
+	5000 1300 5600 1300
 Connection ~ 5300 1300
 Connection ~ 5000 1300
 Wire Wire Line
-	8100 1000 8100 1800
+	8100 1000 8100 5600
 Connection ~ 5600 1000
 Wire Wire Line
 	5000 2850 5200 2850
 Wire Wire Line
-	4750 2700 5000 2700
+	4750 2700 5200 2700
 Connection ~ 5000 2550
 Connection ~ 5000 2700
 Connection ~ 4750 3000
 Connection ~ 5000 1000
 $Comp
-L WurthElektronik:LED_RGB_Wurth D6
+L LED_RGB_Wurth D6
 U 1 1 5BB68097
 P 7800 2900
 F 0 "D6" H 7800 3270 50  0000 C CNN
 F 1 "LED_RGB_Wurth" H 7800 2550 50  0001 C CNN
 F 2 "Wurth:LED_RGB_3528" H 7800 2850 50  0001 C CNN
 F 3 "" H 7800 2850 50  0001 C CNN
-F 4 "	‎150352M173300" H 0   0   50  0001 C CNN "P/N"
 	1    7800 2900
 	1    0    0    1   
 $EndComp
@@ -182,14 +208,13 @@ Wire Wire Line
 Wire Wire Line
 	6750 3000 6600 3000
 $Comp
-L WurthElektronik:LED_RGB_Wurth D5
+L LED_RGB_Wurth D5
 U 1 1 5BB681DA
 P 7100 3150
 F 0 "D5" H 7100 3520 50  0000 C CNN
 F 1 "LED_RGB_Wurth" H 7100 2800 50  0001 C CNN
 F 2 "Wurth:LED_RGB_3528" H 7100 3100 50  0001 C CNN
 F 3 "" H 7100 3100 50  0001 C CNN
-F 4 "	‎150352M173300" H 0   0   50  0001 C CNN "P/N"
 	1    7100 3150
 	1    0    0    1   
 $EndComp
@@ -212,14 +237,13 @@ Wire Wire Line
 Wire Wire Line
 	6800 3300 6600 3300
 $Comp
-L WurthElektronik:LED_RGB_Wurth D4
+L LED_RGB_Wurth D4
 U 1 1 5BB68394
 P 7800 3800
 F 0 "D4" H 7800 4170 50  0000 C CNN
 F 1 "LED_RGB_Wurth" H 7800 3450 50  0001 C CNN
 F 2 "Wurth:LED_RGB_3528" H 7800 3750 50  0001 C CNN
 F 3 "" H 7800 3750 50  0001 C CNN
-F 4 "	‎150352M173300" H 0   0   50  0001 C CNN "P/N"
 	1    7800 3800
 	1    0    0    1   
 $EndComp
@@ -246,14 +270,13 @@ Wire Wire Line
 Wire Wire Line
 	6750 3900 6600 3900
 $Comp
-L WurthElektronik:LED_RGB_Wurth D3
+L LED_RGB_Wurth D3
 U 1 1 5BB68530
 P 7100 4050
 F 0 "D3" H 7100 4420 50  0000 C CNN
 F 1 "LED_RGB_Wurth" H 7100 3700 50  0001 C CNN
 F 2 "Wurth:LED_RGB_3528" H 7100 4000 50  0001 C CNN
 F 3 "" H 7100 4000 50  0001 C CNN
-F 4 "	‎150352M173300" H 0   0   50  0001 C CNN "P/N"
 	1    7100 4050
 	1    0    0    1   
 $EndComp
@@ -278,11 +301,11 @@ Wire Wire Line
 Wire Wire Line
 	7300 2950 7350 2950
 Wire Wire Line
-	7350 2950 7350 3150
+	7350 2950 7350 3350
 Wire Wire Line
 	7350 3150 7300 3150
 Wire Wire Line
-	7300 3350 7350 3350
+	7300 3350 8100 3350
 Connection ~ 7350 3150
 Wire Wire Line
 	8100 3100 8000 3100
@@ -301,21 +324,20 @@ Connection ~ 8100 3800
 Wire Wire Line
 	7300 3850 7350 3850
 Wire Wire Line
-	7350 3850 7350 4050
+	7350 3850 7350 4250
 Wire Wire Line
 	7350 4050 7300 4050
 Wire Wire Line
-	7300 4250 7350 4250
+	7300 4250 8100 4250
 Connection ~ 7350 4050
 $Comp
-L WurthElektronik:LED_RGB_Wurth D2
+L LED_RGB_Wurth D2
 U 1 1 5BB68DCF
 P 7800 4700
 F 0 "D2" H 7800 5070 50  0000 C CNN
 F 1 "LED_RGB_Wurth" H 7800 4350 50  0001 C CNN
 F 2 "Wurth:LED_RGB_3528" H 7800 4650 50  0001 C CNN
 F 3 "" H 7800 4650 50  0001 C CNN
-F 4 "	‎150352M173300" H 0   0   50  0001 C CNN "P/N"
 	1    7800 4700
 	1    0    0    1   
 $EndComp
@@ -342,14 +364,13 @@ Wire Wire Line
 Wire Wire Line
 	6750 4800 6600 4800
 $Comp
-L WurthElektronik:LED_RGB_Wurth D1
+L LED_RGB_Wurth D1
 U 1 1 5BB6906D
 P 7100 4950
 F 0 "D1" H 7100 5320 50  0000 C CNN
 F 1 "LED_RGB_Wurth" H 7100 4600 50  0001 C CNN
 F 2 "Wurth:LED_RGB_3528" H 7100 4900 50  0001 C CNN
 F 3 "" H 7100 4900 50  0001 C CNN
-F 4 "	‎150352M173300" H 0   0   50  0001 C CNN "P/N"
 	1    7100 4950
 	1    0    0    1   
 $EndComp
@@ -372,14 +393,13 @@ Wire Wire Line
 Wire Wire Line
 	6800 5100 6600 5100
 $Comp
-L WurthElektronik:LED_RGB_Wurth D8
+L LED_RGB_Wurth D8
 U 1 1 5BB69A0D
 P 7800 2000
 F 0 "D8" H 7800 2370 50  0000 C CNN
 F 1 "LED_RGB_Wurth" H 7800 1650 50  0001 C CNN
 F 2 "Wurth:LED_RGB_3528" H 7800 1950 50  0001 C CNN
 F 3 "" H 7800 1950 50  0001 C CNN
-F 4 "	‎150352M173300" H 0   0   50  0001 C CNN "P/N"
 	1    7800 2000
 	1    0    0    1   
 $EndComp
@@ -426,11 +446,11 @@ Wire Wire Line
 Wire Wire Line
 	7300 2050 7350 2050
 Wire Wire Line
-	7350 2050 7350 2250
+	7350 2050 7350 2450
 Wire Wire Line
 	7350 2250 7300 2250
 Wire Wire Line
-	7300 2450 7350 2450
+	7300 2450 8100 2450
 Connection ~ 7350 2250
 Connection ~ 8100 3600
 Connection ~ 8100 3100
@@ -458,11 +478,11 @@ Connection ~ 8100 4700
 Wire Wire Line
 	7300 4750 7350 4750
 Wire Wire Line
-	7350 4750 7350 4950
+	7350 4750 7350 5150
 Wire Wire Line
 	7350 4950 7300 4950
 Wire Wire Line
-	7300 5150 7350 5150
+	7300 5150 8100 5150
 Connection ~ 7350 4950
 Connection ~ 8100 4900
 Connection ~ 7350 5150
@@ -471,44 +491,41 @@ Connection ~ 8100 4500
 Connection ~ 8100 4250
 Connection ~ 7350 4250
 $Comp
-L conn:Conn_01x06_Male J1
+L Conn_01x06_Male J1
 U 1 1 5BB6BCAB
 P 1950 3500
 F 0 "J1" H 1950 3800 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 1950 3100 50  0000 C CNN
 F 2 "Connectors_TE-Connectivity:TE_84953-6_1x06_P1.0mm_Horizontal" H 1950 3500 50  0001 C CNN
 F 3 "" H 1950 3500 50  0001 C CNN
-F 4 "	‎84953-6" H 0   0   50  0001 C CNN "P/N"
 	1    1950 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_DIP_x02 SW1
+L SW_DIP_x02 SW1
 U 1 1 5BB6BCEE
 P 4150 4400
 F 0 "SW1" H 4150 4650 50  0000 C CNN
 F 1 "SW_DIP_x02" H 4150 4250 50  0000 C CNN
 F 2 "Apem:2.54mm_DIP_Switch_2_Position" H 4150 4400 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/26/NDI_DM_DIPS-276092.pdf" H 4150 4400 50  0001 C CNN
-F 4 "	‎DM02" H 0   0   50  0001 C CNN "P/N"
 	1    4150 4400
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R3
+L R R3
 U 1 1 5BB6C1B7
 P 4300 3200
 F 0 "R3" V 4380 3200 50  0000 C CNN
 F 1 "68k" V 4300 3200 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206" V 4230 3200 50  0001 C CNN
 F 3 "" H 4300 3200 50  0001 C CNN
-F 4 "	‎CRGP1206F68K‎" H 0   0   50  0001 C CNN "P/N"
 	1    4300 3200
 	-1   0    0    1   
 $EndComp
 Connection ~ 4300 3000
 Wire Wire Line
-	4250 3750 4300 3750
+	4250 3750 5200 3750
 Wire Wire Line
 	4300 3750 4300 3350
 Wire Wire Line
@@ -538,39 +555,37 @@ Wire Wire Line
 	5000 5100 5200 5100
 Connection ~ 5000 4950
 Wire Wire Line
-	4150 5250 4250 5250
+	4150 5250 5200 5250
 Connection ~ 5000 5100
 Connection ~ 4300 3750
 Wire Wire Line
 	2350 3300 2150 3300
 Wire Wire Line
-	2350 1000 2350 3000
+	2350 1000 2350 3300
 Wire Wire Line
 	4250 4700 4250 5250
 Connection ~ 5000 5250
 $Comp
-L Device:LED_ALT D9
+L LED_ALT D9
 U 1 1 5BB92C7F
 P 7350 5600
 F 0 "D9" H 7350 5500 50  0000 C CNN
 F 1 "LED" H 7350 5700 50  0000 C CNN
 F 2 "LEDs:LED_0805" H 7350 5600 50  0001 C CNN
 F 3 "" H 7350 5600 50  0001 C CNN
-F 4 "	‎LY M676-Q2S1-26-Z" H 0   0   50  0001 C CNN "P/N"
 	1    7350 5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8100 5600 7500 5600
 $Comp
-L Device:R R4
+L R R4
 U 1 1 5BB9304C
 P 6900 5600
 F 0 "R4" V 6980 5600 50  0000 C CNN
 F 1 "86.6" V 6900 5600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 6830 5600 50  0001 C CNN
 F 3 "" H 6900 5600 50  0001 C CNN
-F 4 "‎1-2176091-8" H 0   0   50  0001 C CNN "P/N"
 	1    6900 5600
 	0    1    1    0   
 $EndComp
@@ -579,29 +594,27 @@ Wire Wire Line
 Wire Wire Line
 	3900 5600 6750 5600
 $Comp
-L TI-addition:TPS22810-Q1 U2
+L TPS22810-Q1 U2
 U 1 1 5BB93DC6
 P 3550 1150
 F 0 "U2" H 3550 1575 50  0000 C CNN
 F 1 "TPS22810-Q1" H 3550 1500 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 3550 1650 50  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fds%2Fsymlink%2Ftps22810-q1.pdf" H 3500 1450 50  0001 C CNN
-F 4 "TPS22810DBVR" H 3550 1150 50  0001 C CNN "P/N"
 	1    3550 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2350 1000 2800 1000
+	2350 1000 3050 1000
 Connection ~ 2350 3000
 $Comp
-L Device:C C5
+L C C5
 U 1 1 5BB945A9
 P 2800 1600
 F 0 "C5" H 2825 1700 50  0000 L CNN
 F 1 "1uF" H 2825 1500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 2838 1450 50  0001 C CNN
 F 3 "" H 2800 1600 50  0001 C CNN
-F 4 "	‎C0805C105J4RACTU" H 0   0   50  0001 C CNN "P/N"
 	1    2800 1600
 	-1   0    0    1   
 $EndComp
@@ -615,28 +628,26 @@ Wire Wire Line
 Wire Wire Line
 	2950 1200 2950 1800
 $Comp
-L Device:C C6
+L C C6
 U 1 1 5BB9528F
 P 4350 1600
 F 0 "C6" H 4375 1700 50  0000 L CNN
 F 1 "1uF" H 4375 1500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 4388 1450 50  0001 C CNN
 F 3 "" H 4350 1600 50  0001 C CNN
-F 4 "	‎C0805C105J4RACTU" H 0   0   50  0001 C CNN "P/N"
 	1    4350 1600
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	4050 1200 4250 1200
 $Comp
-L Device:R R6
+L R R6
 U 1 1 5BB95761
 P 4100 3200
 F 0 "R6" V 4180 3200 50  0000 C CNN
 F 1 "68k" V 4100 3200 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206" V 4030 3200 50  0001 C CNN
 F 3 "" H 4100 3200 50  0001 C CNN
-F 4 "	‎CRGP1206F68K‎" H 0   0   50  0001 C CNN "P/N"
 	1    4100 3200
 	-1   0    0    -1  
 $EndComp
@@ -648,14 +659,13 @@ Wire Wire Line
 	4150 4700 4150 5250
 Connection ~ 4250 5250
 $Comp
-L Device:C C7
+L C C7
 U 1 1 5BB95E92
 P 2550 3200
 F 0 "C7" H 2575 3300 50  0000 L CNN
 F 1 "4.7uF" H 2575 3100 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206" H 2588 3050 50  0001 C CNN
 F 3 "" H 2550 3200 50  0001 C CNN
-F 4 "	‎C1206C475Z4VACTU" H 0   0   50  0001 C CNN "P/N"
 	1    2550 3200
 	1    0    0    -1  
 $EndComp
@@ -663,14 +673,13 @@ Wire Wire Line
 	2550 3050 2550 3000
 Connection ~ 2550 3000
 $Comp
-L Device:R R5
+L R R5
 U 1 1 5BB96EE4
 P 4400 1200
 F 0 "R5" V 4480 1200 50  0000 C CNN
 F 1 "86.6" V 4400 1200 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 4330 1200 50  0001 C CNN
 F 3 "" H 4400 1200 50  0001 C CNN
-F 4 "‎1-2176091-8" H 0   0   50  0001 C CNN "P/N"
 	1    4400 1200
 	0    1    1    0   
 $EndComp
@@ -752,7 +761,7 @@ Connection ~ 8100 5150
 Wire Wire Line
 	3900 3500 3900 5600
 Wire Wire Line
-	5000 3400 2550 3400
+	5000 3400 2150 3400
 Wire Wire Line
 	2550 3350 2550 3400
 Connection ~ 2550 3400
@@ -806,7 +815,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 3350 4700 3350
 Wire Wire Line
-	5000 1300 5000 1800
+	5000 1300 5000 5250
 Wire Wire Line
 	4350 1800 4350 1750
 Connection ~ 4350 1800
@@ -818,136 +827,10 @@ Connection ~ 4100 3000
 Wire Wire Line
 	4100 3000 4100 3050
 Wire Wire Line
-	2350 3000 2550 3000
+	2350 3000 5200 3000
 Wire Wire Line
 	4100 3350 4100 4100
 Wire Wire Line
-	3000 4100 4100 4100
+	3000 4100 4150 4100
 Connection ~ 4100 4100
-Wire Wire Line
-	5000 2400 5000 2550
-Wire Wire Line
-	5000 2250 5000 2400
-Wire Wire Line
-	5000 2100 5000 2250
-Wire Wire Line
-	5000 1950 5000 2100
-Wire Wire Line
-	5000 1800 5200 1800
-Wire Wire Line
-	5000 1800 5000 1950
-Wire Wire Line
-	5300 1000 5600 1000
-Wire Wire Line
-	5300 1300 5600 1300
-Wire Wire Line
-	5600 1000 8100 1000
-Wire Wire Line
-	5000 2550 5000 2700
-Wire Wire Line
-	5000 2700 5200 2700
-Wire Wire Line
-	5000 2700 5000 2850
-Wire Wire Line
-	4750 3000 5200 3000
-Wire Wire Line
-	5000 1000 5300 1000
-Wire Wire Line
-	7350 3150 7350 3350
-Wire Wire Line
-	8100 2900 8100 3100
-Wire Wire Line
-	8100 3800 8100 4000
-Wire Wire Line
-	7350 4050 7350 4250
-Wire Wire Line
-	7350 2250 7350 2450
-Wire Wire Line
-	8100 3600 8100 3800
-Wire Wire Line
-	8100 3100 8100 3350
-Wire Wire Line
-	8100 3350 8100 3600
-Wire Wire Line
-	7350 3350 8100 3350
-Wire Wire Line
-	8100 2000 8100 2200
-Wire Wire Line
-	8100 1800 8100 2000
-Wire Wire Line
-	8100 2700 8100 2900
-Wire Wire Line
-	8100 2200 8100 2450
-Wire Wire Line
-	8100 2450 8100 2700
-Wire Wire Line
-	7350 2450 8100 2450
-Wire Wire Line
-	8100 4700 8100 4900
-Wire Wire Line
-	7350 4950 7350 5150
-Wire Wire Line
-	8100 4900 8100 5150
-Wire Wire Line
-	7350 5150 8100 5150
-Wire Wire Line
-	8100 4000 8100 4250
-Wire Wire Line
-	8100 4500 8100 4700
-Wire Wire Line
-	8100 4250 8100 4500
-Wire Wire Line
-	7350 4250 8100 4250
-Wire Wire Line
-	4300 3000 4500 3000
-Wire Wire Line
-	4500 3000 4700 3000
-Wire Wire Line
-	5000 4050 5000 4200
-Wire Wire Line
-	5000 4200 5000 4350
-Wire Wire Line
-	5000 4350 5000 4500
-Wire Wire Line
-	5000 4500 5000 4650
-Wire Wire Line
-	5000 4650 5000 4800
-Wire Wire Line
-	5000 4800 5000 4950
-Wire Wire Line
-	5000 4950 5000 5100
-Wire Wire Line
-	5000 5100 5000 5250
-Wire Wire Line
-	4300 3750 5200 3750
-Wire Wire Line
-	5000 5250 5200 5250
-Wire Wire Line
-	2350 3000 2350 3300
-Wire Wire Line
-	2800 1000 3050 1000
-Wire Wire Line
-	4250 5250 5000 5250
-Wire Wire Line
-	2550 3000 4100 3000
-Wire Wire Line
-	4700 1000 5000 1000
-Wire Wire Line
-	2950 1800 4350 1800
-Wire Wire Line
-	8100 5150 8100 5600
-Wire Wire Line
-	2550 3400 2150 3400
-Wire Wire Line
-	5000 3400 5000 4050
-Wire Wire Line
-	5000 2850 5000 3400
-Wire Wire Line
-	4700 3000 4750 3000
-Wire Wire Line
-	4350 1800 5000 1800
-Wire Wire Line
-	4100 3000 4300 3000
-Wire Wire Line
-	4100 4100 4150 4100
 $EndSCHEMATC
