@@ -523,23 +523,7 @@ Wire Wire Line
 	5000 4350 5200 4350
 Connection ~ 5000 4200
 Wire Wire Line
-	5000 4500 5200 4500
-Connection ~ 5000 4350
-Wire Wire Line
-	5000 4650 5200 4650
-Connection ~ 5000 4500
-Wire Wire Line
-	5000 4800 5200 4800
-Connection ~ 5000 4650
-Wire Wire Line
-	5000 4950 5200 4950
-Connection ~ 5000 4800
-Wire Wire Line
-	5000 5100 5200 5100
-Connection ~ 5000 4950
-Wire Wire Line
 	4150 5250 4250 5250
-Connection ~ 5000 5100
 Connection ~ 4300 3750
 Wire Wire Line
 	2350 3300 2150 3300
@@ -547,7 +531,6 @@ Wire Wire Line
 	2350 1000 2350 3000
 Wire Wire Line
 	4250 4700 4250 5250
-Connection ~ 5000 5250
 $Comp
 L Device:LED_ALT D9
 U 1 1 5BB92C7F
@@ -752,14 +735,14 @@ Connection ~ 8100 5150
 Wire Wire Line
 	3900 3500 3900 5600
 Wire Wire Line
-	5000 3400 2550 3400
+	5000 3400 4550 3400
 Wire Wire Line
 	2550 3350 2550 3400
 Connection ~ 2550 3400
 Wire Wire Line
 	2150 3500 3900 3500
 Wire Wire Line
-	2400 3550 5050 3550
+	2400 3550 3200 3550
 Wire Wire Line
 	5050 3550 5050 3300
 Wire Wire Line
@@ -769,7 +752,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 3450 5100 3600
 Wire Wire Line
-	5100 3600 2450 3600
+	5100 3600 3450 3600
 Wire Wire Line
 	2500 3650 5150 3650
 Wire Wire Line
@@ -849,7 +832,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 2700 5000 2850
 Wire Wire Line
-	4750 3000 5200 3000
+	4750 3000 4850 3000
 Wire Wire Line
 	5000 1000 5300 1000
 Wire Wire Line
@@ -907,29 +890,13 @@ Wire Wire Line
 Wire Wire Line
 	5000 4200 5000 4350
 Wire Wire Line
-	5000 4350 5000 4500
-Wire Wire Line
-	5000 4500 5000 4650
-Wire Wire Line
-	5000 4650 5000 4800
-Wire Wire Line
-	5000 4800 5000 4950
-Wire Wire Line
-	5000 4950 5000 5100
-Wire Wire Line
-	5000 5100 5000 5250
-Wire Wire Line
 	4300 3750 5200 3750
-Wire Wire Line
-	5000 5250 5200 5250
 Wire Wire Line
 	2350 3000 2350 3300
 Wire Wire Line
 	2800 1000 3050 1000
 Wire Wire Line
-	4250 5250 5000 5250
-Wire Wire Line
-	2550 3000 4100 3000
+	2550 3000 3200 3000
 Wire Wire Line
 	4700 1000 5000 1000
 Wire Wire Line
@@ -950,4 +917,101 @@ Wire Wire Line
 	4100 3000 4300 3000
 Wire Wire Line
 	4100 4100 4150 4100
+$Comp
+L Device:R R7
+U 1 1 5CA78C44
+P 4850 4200
+F 0 "R7" V 4950 4200 50  0000 C CNN
+F 1 "1.8k" V 4850 4200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4780 4200 50  0001 C CNN
+F 3 "" H 4850 4200 50  0001 C CNN
+F 4 "	‎CRGP1206F68K‎" H 150 1000 50  0001 C CNN "P/N"
+	1    4850 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5CA78F6D
+P 3200 3200
+F 0 "R8" V 3300 3200 50  0000 C CNN
+F 1 "1.8k" V 3200 3200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 3130 3200 50  0001 C CNN
+F 3 "" H 3200 3200 50  0001 C CNN
+F 4 "	‎CRGP1206F68K‎" H -1500 0   50  0001 C CNN "P/N"
+	1    3200 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5CA78FF5
+P 3450 3200
+F 0 "R9" V 3550 3200 50  0000 C CNN
+F 1 "1.8k" V 3450 3200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 3380 3200 50  0001 C CNN
+F 3 "" H 3450 3200 50  0001 C CNN
+F 4 "	‎CRGP1206F68K‎" H -1250 0   50  0001 C CNN "P/N"
+	1    3450 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3200 3050 3200 3000
+Connection ~ 3200 3000
+Wire Wire Line
+	3200 3000 3450 3000
+Wire Wire Line
+	3450 3050 3450 3000
+Connection ~ 3450 3000
+Wire Wire Line
+	3450 3000 4100 3000
+Wire Wire Line
+	3200 3350 3200 3550
+Connection ~ 3200 3550
+Wire Wire Line
+	3200 3550 5050 3550
+Wire Wire Line
+	3450 3350 3450 3600
+Connection ~ 3450 3600
+Wire Wire Line
+	3450 3600 2450 3600
+Wire Wire Line
+	4250 5250 4550 5250
+Wire Wire Line
+	4850 3000 4850 4050
+Connection ~ 4850 3000
+Wire Wire Line
+	4850 3000 5200 3000
+Wire Wire Line
+	4850 4350 4850 4500
+Wire Wire Line
+	4850 4500 5200 4500
+Wire Wire Line
+	5200 4650 4850 4650
+Wire Wire Line
+	4850 4650 4850 4500
+Connection ~ 4850 4500
+Wire Wire Line
+	5200 4800 4850 4800
+Wire Wire Line
+	4850 4800 4850 4650
+Connection ~ 4850 4650
+Wire Wire Line
+	5200 4950 4850 4950
+Wire Wire Line
+	5200 5100 4850 5100
+Wire Wire Line
+	4850 5100 4850 4950
+Wire Wire Line
+	4850 5100 4850 5250
+Connection ~ 4850 5100
+Connection ~ 4850 5250
+Wire Wire Line
+	4850 5250 5200 5250
+Wire Wire Line
+	4550 3400 4550 5250
+Connection ~ 4550 3400
+Wire Wire Line
+	4550 3400 2550 3400
+Connection ~ 4550 5250
+Wire Wire Line
+	4550 5250 4850 5250
 $EndSCHEMATC
