@@ -555,6 +555,8 @@ F 5 "KEMET" H 4400 2800 50  0001 C CNN "MFG"
 	1    4400 2800
 	1    0    0    -1  
 $EndComp
+Text Label 2350 3800 2    50   ~ 0
+CLR
 Text Notes 1450 7600 0    50   ~ 0
 Seg: DSM7TA56105T\nIfm = 20mA, Ifn = 18mA\nVf = 3.0V, Vin = 5.0V\nVr = 5-3.0= 2.00V\nR = 2.00V/18mA = 111.1 Ohm\nVrm = 2.2V, Irm = 20mA\nVrmin = 110 Ohm
 $Comp
@@ -1105,6 +1107,4 @@ F 3 "~" H 5512 4400 50  0001 C CNN
 $EndComp
 Text Label 5500 4350 0    50   ~ 0
 HS
-Text Label 2350 3800 2    60   ~ 0
-CLR
 $EndSCHEMATC

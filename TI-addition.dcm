@@ -1,5 +1,16 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP TLC6C5816
+D 16-Bit Line Driver Shift Register with Diagnostics
+K 16bit LED Driver Shift Register
+F https://www.ti.com/lit/ds/symlink/tlc6c5816-q1.pdf
+$ENDCMP
+#
+$CMP TLC6C598
+D TLC6C598 Shift Register
+K 8bit Shift Register
+$ENDCMP
+#
 $CMP TPS22810-Q1
 D Single power-distribution switcher
 K 1-chanel power-distribution USB
