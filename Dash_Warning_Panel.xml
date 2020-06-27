@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>E:/Projects/GitHub/FSAE-Dash-Warning-Panel/Dash_Warning_Panel.sch</source>
-    <date>10/12/2018 3:14:34 PM</date>
-    <tool>Eeschema 4.0.7</tool>
+    <source>E:\Projects\GitHub\FSAE-Dash-Warning-Panel\Dash_Warning_Panel.sch</source>
+    <date>6/27/2020 12:32:50 PM</date>
+    <tool>Eeschema (5.1.4)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -19,256 +19,557 @@
     </sheet>
   </design>
   <components>
-    <comp ref="U1">
-      <value>BD2808MUV</value>
-      <footprint>Housings_DFN_QFN:QFN-48-1EP_7x7mm_Pitch0.5mm</footprint>
-      <datasheet>https://www.mouser.com/datasheet/2/348/bd2808muv-m-e-1266220.pdf</datasheet>
-      <libsource lib="ROHM" part="BD2808MUV"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BB61F1D</tstamp>
-    </comp>
     <comp ref="C2">
-      <value>4.7uF</value>
-      <footprint>Capacitors_SMD:C_1206</footprint>
-      <libsource lib="device" part="C"/>
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Description">CAP CER 1.0UF 16V X7R 0603</field>
+        <field name="Digikey P/N">399-7847-1-ND</field>
+        <field name="MFG">KEMET</field>
+        <field name="P/N">C0603C105K4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB632BF</tstamp>
     </comp>
     <comp ref="C3">
-      <value>4.7uF</value>
-      <footprint>Capacitors_SMD:C_1206</footprint>
-      <libsource lib="device" part="C"/>
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Description">CAP CER 1.0UF 16V X7R 0603</field>
+        <field name="Digikey P/N">399-7847-1-ND</field>
+        <field name="MFG">KEMET</field>
+        <field name="P/N">C0603C105K4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB6332B</tstamp>
     </comp>
     <comp ref="C4">
-      <value>4.7uF</value>
-      <footprint>Capacitors_SMD:C_1206</footprint>
-      <libsource lib="device" part="C"/>
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Description">CAP CER 1.0UF 16V X7R 0603</field>
+        <field name="Digikey P/N">399-7847-1-ND</field>
+        <field name="MFG">KEMET</field>
+        <field name="P/N">C0603C105K4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB6335E</tstamp>
     </comp>
-    <comp ref="R2">
-      <value>68k</value>
-      <footprint>Resistors_SMD:R_1206</footprint>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BB634DF</tstamp>
-    </comp>
-    <comp ref="R1">
-      <value>68k</value>
-      <footprint>Resistors_SMD:R_1206</footprint>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BB63595</tstamp>
-    </comp>
-    <comp ref="C1">
-      <value>1uF</value>
-      <footprint>Capacitors_SMD:C_1206</footprint>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BB63633</tstamp>
-    </comp>
-    <comp ref="D7">
-      <value>LED_RGB_Wurth</value>
-      <footprint>Wurth:LED_RGB_3528</footprint>
-      <libsource lib="WurthElektronik" part="LED_RGB_Wurth"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BB66862</tstamp>
-    </comp>
-    <comp ref="D6">
-      <value>LED_RGB_Wurth</value>
-      <footprint>Wurth:LED_RGB_3528</footprint>
-      <libsource lib="WurthElektronik" part="LED_RGB_Wurth"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BB68097</tstamp>
-    </comp>
-    <comp ref="D5">
-      <value>LED_RGB_Wurth</value>
-      <footprint>Wurth:LED_RGB_3528</footprint>
-      <libsource lib="WurthElektronik" part="LED_RGB_Wurth"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BB681DA</tstamp>
-    </comp>
-    <comp ref="D4">
-      <value>LED_RGB_Wurth</value>
-      <footprint>Wurth:LED_RGB_3528</footprint>
-      <libsource lib="WurthElektronik" part="LED_RGB_Wurth"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BB68394</tstamp>
-    </comp>
-    <comp ref="D3">
-      <value>LED_RGB_Wurth</value>
-      <footprint>Wurth:LED_RGB_3528</footprint>
-      <libsource lib="WurthElektronik" part="LED_RGB_Wurth"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BB68530</tstamp>
-    </comp>
-    <comp ref="D2">
-      <value>LED_RGB_Wurth</value>
-      <footprint>Wurth:LED_RGB_3528</footprint>
-      <libsource lib="WurthElektronik" part="LED_RGB_Wurth"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BB68DCF</tstamp>
-    </comp>
-    <comp ref="D1">
-      <value>LED_RGB_Wurth</value>
-      <footprint>Wurth:LED_RGB_3528</footprint>
-      <libsource lib="WurthElektronik" part="LED_RGB_Wurth"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BB6906D</tstamp>
-    </comp>
-    <comp ref="D8">
-      <value>LED_RGB_Wurth</value>
-      <footprint>Wurth:LED_RGB_3528</footprint>
-      <libsource lib="WurthElektronik" part="LED_RGB_Wurth"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BB69A0D</tstamp>
-    </comp>
     <comp ref="J1">
-      <value>Conn_01x06_Male</value>
-      <footprint>Connectors_TE-Connectivity:TE_84953-6_1x06_P1.0mm_Horizontal</footprint>
-      <libsource lib="conn" part="Conn_01x06_Male"/>
+      <value>Conn</value>
+      <footprint>FSAE-Dash-Warning-Panel:8wireConn</footprint>
+      <datasheet>N/A</datasheet>
+      <fields>
+        <field name="Description">Wire Solder Points</field>
+        <field name="Digikey P/N">N/A</field>
+        <field name="MFG">N/A</field>
+        <field name="P/N">N/A</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB6BCAB</tstamp>
     </comp>
-    <comp ref="SW1">
-      <value>SW_DIP_x02</value>
-      <footprint>Apem:2.54mm_DIP_Switch_2_Position</footprint>
-      <datasheet>https://www.mouser.com/datasheet/2/26/NDI_DM_DIPS-276092.pdf</datasheet>
-      <libsource lib="switches" part="SW_DIP_x02"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BB6BCEE</tstamp>
-    </comp>
-    <comp ref="R3">
-      <value>68k</value>
-      <footprint>Resistors_SMD:R_1206</footprint>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BB6C1B7</tstamp>
-    </comp>
-    <comp ref="D9">
-      <value>LED</value>
-      <footprint>LEDs:LED_0805</footprint>
-      <libsource lib="device" part="LED_ALT"/>
+    <comp ref="D2">
+      <value>SM1206NYC-IL</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <datasheet>https://www.bivar.com/Files/Datasheets/SM1206NYC-IL.pdf</datasheet>
+      <fields>
+        <field name="Description">LED YELLOW CLEAR 1206 SMD</field>
+        <field name="Digikey P/N">492-1947-1-ND</field>
+        <field name="MFG">BIVAR</field>
+        <field name="P/N">SM1206NYC-IL</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT" description="Light emitting diode, filled shape"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB92C7F</tstamp>
     </comp>
-    <comp ref="R4">
-      <value>86.6</value>
-      <footprint>Resistors_SMD:R_0805</footprint>
-      <libsource lib="device" part="R"/>
+    <comp ref="R2">
+      <value>120</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 120 OHM 1% 1/10W 0603</field>
+        <field name="Digikey P/N">RMCF0603FT120RCT-ND</field>
+        <field name="MFG">Stackpole</field>
+        <field name="P/N">RMCF0603FT120R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB9304C</tstamp>
     </comp>
-    <comp ref="U3">
-      <value>TPS22810-Q1</value>
+    <comp ref="U2">
+      <value>TPS22810</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
-      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fds%2Fsymlink%2Ftps22810-q1.pdf</datasheet>
-      <libsource lib="TI-addition" part="TPS22810-Q1"/>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps22810.pdf</datasheet>
+      <fields>
+        <field name="Description">IC PWR SWITCH N-CHAN 1:1 SOT23-6</field>
+        <field name="Digikey P/N">296-45297-1-ND</field>
+        <field name="MFG">TI</field>
+        <field name="P/N">TPS22810DBVR</field>
+      </fields>
+      <libsource lib="TI-addition" part="TPS22810-Q1" description="Single power-distribution switcher"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB93DC6</tstamp>
     </comp>
     <comp ref="C5">
       <value>1uF</value>
-      <footprint>Capacitors_SMD:C_1206</footprint>
-      <libsource lib="device" part="C"/>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Description">CAP CER 1.0UF 16V X7R 0603</field>
+        <field name="Digikey P/N">399-7847-1-ND</field>
+        <field name="MFG">KEMET</field>
+        <field name="P/N">C0603C105K4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB945A9</tstamp>
     </comp>
     <comp ref="C6">
       <value>1uF</value>
-      <footprint>Capacitors_SMD:C_1206</footprint>
-      <libsource lib="device" part="C"/>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Description">CAP CER 1.0UF 16V X7R 0603</field>
+        <field name="Digikey P/N">399-7847-1-ND</field>
+        <field name="MFG">KEMET</field>
+        <field name="P/N">C0603C105K4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB9528F</tstamp>
     </comp>
-    <comp ref="R6">
-      <value>68k</value>
-      <footprint>Resistors_SMD:R_1206</footprint>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BB95761</tstamp>
-    </comp>
-    <comp ref="C7">
-      <value>4.7uF</value>
-      <footprint>Capacitors_SMD:C_1206</footprint>
-      <libsource lib="device" part="C"/>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Description">CAP CER 1.0UF 16V X7R 0603</field>
+        <field name="Digikey P/N">399-7847-1-ND</field>
+        <field name="MFG">KEMET</field>
+        <field name="P/N">C0603C105K4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB95E92</tstamp>
     </comp>
-    <comp ref="R5">
-      <value>86.6</value>
-      <footprint>Resistors_SMD:R_0805</footprint>
-      <libsource lib="device" part="R"/>
+    <comp ref="R10">
+      <value>120</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 120 OHM 1% 1/10W 0603</field>
+        <field name="Digikey P/N">RMCF0603FT120RCT-ND</field>
+        <field name="MFG">Stackpole</field>
+        <field name="P/N">RMCF0603FT120R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB96EE4</tstamp>
     </comp>
+    <comp ref="D1">
+      <value>LCB G6SP</value>
+      <footprint>OSRAM:PLCC-6_THERM_MOD</footprint>
+      <datasheet>https://dammedia.osram.info/media/resource/hires/osram-dam-6030625/LCB%20G6SP_EN.pdf</datasheet>
+      <fields>
+        <field name="Description">LED BLUE, 3.3V 140mA</field>
+        <field name="Digikey P/N">475-3674-1-ND</field>
+        <field name="MFG">OSRAM</field>
+        <field name="P/N">LCB G6SP-DBFA-4J5L-0-140-R18-Z</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E526158</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>SM1206NHC-IL</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <datasheet>https://www.bivar.com/Portals/0/Products/SM1206NHC-IL.pdf</datasheet>
+      <fields>
+        <field name="Description">LED RED CLEAR 1206 SMD</field>
+        <field name="Digikey P/N">492-1944-1-ND</field>
+        <field name="MFG">BIVAR</field>
+        <field name="P/N">SM1206NHC-IL</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E529D46</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>120</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 120 OHM 1% 1/10W 0603</field>
+        <field name="Digikey P/N">RMCF0603FT120RCT-ND</field>
+        <field name="MFG">Stackpole</field>
+        <field name="P/N">RMCF0603FT120R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E52AEE9</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>11</value>
+      <footprint>Resistors_SMD:R_1210</footprint>
+      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <fields>
+        <field name="Description">RES SMD 11 OHM 1% 1/2W 1210</field>
+        <field name="Digikey P/N">541-11.0AACT-ND</field>
+        <field name="MFG">Vishay</field>
+        <field name="P/N">CRCW121011R0FKEA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E52D3F8</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>SM1206NHC-IL</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <datasheet>https://www.bivar.com/Portals/0/Products/SM1206NHC-IL.pdf</datasheet>
+      <fields>
+        <field name="Description">LED RED CLEAR 1206 SMD</field>
+        <field name="Digikey P/N">492-1944-1-ND</field>
+        <field name="MFG">BIVAR</field>
+        <field name="P/N">SM1206NHC-IL</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5302B0</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>120</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 120 OHM 1% 1/10W 0603</field>
+        <field name="Digikey P/N">RMCF0603FT120RCT-ND</field>
+        <field name="MFG">Stackpole</field>
+        <field name="P/N">RMCF0603FT120R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5302BD</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>SM1206NHC-IL</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <datasheet>https://www.bivar.com/Portals/0/Products/SM1206NHC-IL.pdf</datasheet>
+      <fields>
+        <field name="Description">LED RED CLEAR 1206 SMD</field>
+        <field name="Digikey P/N">492-1944-1-ND</field>
+        <field name="MFG">BIVAR</field>
+        <field name="P/N">SM1206NHC-IL</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E53190A</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>120</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 120 OHM 1% 1/10W 0603</field>
+        <field name="Digikey P/N">RMCF0603FT120RCT-ND</field>
+        <field name="MFG">Stackpole</field>
+        <field name="P/N">RMCF0603FT120R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E531917</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>SM1206NYC-IL</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <datasheet>https://www.bivar.com/Files/Datasheets/SM1206NYC-IL.pdf</datasheet>
+      <fields>
+        <field name="Description">LED YELLOW CLEAR 1206 SMD</field>
+        <field name="Digikey P/N">492-1947-1-ND</field>
+        <field name="MFG">BIVAR</field>
+        <field name="P/N">SM1206NYC-IL</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E532CA4</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>120</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 120 OHM 1% 1/10W 0603</field>
+        <field name="Digikey P/N">RMCF0603FT120RCT-ND</field>
+        <field name="MFG">Stackpole</field>
+        <field name="P/N">RMCF0603FT120R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E532CB1</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>SM1206NPGC-IL</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <datasheet>https://www.bivar.com/parts_content/Datasheets/SM1206NPGC-IL.pdf</datasheet>
+      <fields>
+        <field name="Description">LED GREEN CLEAR 1206 SMD</field>
+        <field name="Digikey P/N">492-1945-1-ND</field>
+        <field name="MFG">BIVAR</field>
+        <field name="P/N">SM1206NPGC-IL</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E534455</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>120</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 120 OHM 1% 1/10W 0603</field>
+        <field name="Digikey P/N">RMCF0603FT120RCT-ND</field>
+        <field name="MFG">Stackpole</field>
+        <field name="P/N">RMCF0603FT120R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E534462</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>SM1206NPGC-IL</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <datasheet>https://www.bivar.com/parts_content/Datasheets/SM1206NPGC-IL.pdf</datasheet>
+      <fields>
+        <field name="Description">LED GREEN CLEAR 1206 SMD</field>
+        <field name="Digikey P/N">492-1945-1-ND</field>
+        <field name="MFG">BIVAR</field>
+        <field name="P/N">SM1206NPGC-IL</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E53A605</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>SM1206NPGC-IL</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <datasheet>https://www.bivar.com/parts_content/Datasheets/SM1206NPGC-IL.pdf</datasheet>
+      <fields>
+        <field name="Description">LED GREEN CLEAR 1206 SMD</field>
+        <field name="Digikey P/N">492-1945-1-ND</field>
+        <field name="MFG">BIVAR</field>
+        <field name="P/N">SM1206NPGC-IL</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E53AAF6</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>120</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 120 OHM 1% 1/10W 0603</field>
+        <field name="Digikey P/N">RMCF0603FT120RCT-ND</field>
+        <field name="MFG">Stackpole</field>
+        <field name="P/N">RMCF0603FT120R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E53B07F</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>120</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 120 OHM 1% 1/10W 0603</field>
+        <field name="Digikey P/N">RMCF0603FT120RCT-ND</field>
+        <field name="MFG">Stackpole</field>
+        <field name="P/N">RMCF0603FT120R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E53B438</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>DSM7TA56105T</value>
+      <footprint>VCC:DSM77TA56105T</footprint>
+      <datasheet>https://vcclite.com/wp-content/uploads/wpallimport/files/files/DSM7TA56105T.pdf</datasheet>
+      <fields>
+        <field name="Description">DISPLAY 7SEG 0.56" SGL GRN 10SMD</field>
+        <field name="Digikey P/N">DSM7TA56105TCT-ND</field>
+        <field name="MFG">VCC</field>
+        <field name="P/N">DSM7TA56105T</field>
+      </fields>
+      <libsource lib="VCC" part="DSM7TA56105T" description="VCC One digit 7 segment green, common anode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5059CF</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TLC6C5816</value>
+      <footprint>Housings_SSOP:HTSSOP-28_4.4x9.7mm_Pitch0.65mm_ThermalPad</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlc6c5816-q1.pdf</datasheet>
+      <fields>
+        <field name="Description">LED Driver IC 16 Output Linear Shift Register PWM Dimming</field>
+        <field name="Digikey P/N">296-51674-1-ND</field>
+        <field name="MFG">TI</field>
+        <field name="P/N">TLC6C5816QPWPRQ1</field>
+      </fields>
+      <libsource lib="TI-addition" part="TLC6C5816" description="16-Bit Line Driver Shift Register with Diagnostics"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5167B2</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Description">CAP CER 1.0UF 16V X7R 0603</field>
+        <field name="Digikey P/N">399-7847-1-ND</field>
+        <field name="MFG">KEMET</field>
+        <field name="P/N">C0603C105K4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E517523</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>https://api.kemet.com/component-edge/download/datasheet/C0603C104M4RACTU.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 16V X7R 0603</field>
+        <field name="Digikey P/N">399-1099-1-ND</field>
+        <field name="MFG">KEMET</field>
+        <field name="P/N">C0603C104M4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E517858</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>120</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 120 OHM 1% 1/10W 0603</field>
+        <field name="Digikey P/N">RMCF0603FT120RCT-ND</field>
+        <field name="MFG">Stackpole</field>
+        <field name="P/N">RMCF0603FT120R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E51C172</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>120</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 120 OHM 1% 1/10W 0603</field>
+        <field name="Digikey P/N">RMCF0603FT120RCT-ND</field>
+        <field name="MFG">Stackpole</field>
+        <field name="P/N">RMCF0603FT120R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E51C8E3</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>120</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 120 OHM 1% 1/10W 0603</field>
+        <field name="Digikey P/N">RMCF0603FT120RCT-ND</field>
+        <field name="MFG">Stackpole</field>
+        <field name="P/N">RMCF0603FT120R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E51CC04</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>120</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 120 OHM 1% 1/10W 0603</field>
+        <field name="Digikey P/N">RMCF0603FT120RCT-ND</field>
+        <field name="MFG">Stackpole</field>
+        <field name="P/N">RMCF0603FT120R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E51CEFD</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>120</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 120 OHM 1% 1/10W 0603</field>
+        <field name="Digikey P/N">RMCF0603FT120RCT-ND</field>
+        <field name="MFG">Stackpole</field>
+        <field name="P/N">RMCF0603FT120R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E51EFC1</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>120</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 120 OHM 1% 1/10W 0603</field>
+        <field name="Digikey P/N">RMCF0603FT120RCT-ND</field>
+        <field name="MFG">Stackpole</field>
+        <field name="P/N">RMCF0603FT120R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E51F9EA</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>120</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 120 OHM 1% 1/10W 0603</field>
+        <field name="Digikey P/N">RMCF0603FT120RCT-ND</field>
+        <field name="MFG">Stackpole</field>
+        <field name="P/N">RMCF0603FT120R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E51FE1B</tstamp>
+    </comp>
   </components>
   <libparts>
-    <libpart lib="ROHM" part="BD2808MUV">
-      <description>ROHM 24 Channel Constant Current LED Driver</description>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
       <footprints>
-        <fp>QFN-48</fp>
-        <fp>QFN-48-1EP_7x7mm_Pitch0.5mm</fp>
+        <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
-        <field name="Reference">U</field>
-        <field name="Value">BD2808MUV</field>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
       </fields>
       <pins>
-        <pin num="1" name="A1" type="input"/>
-        <pin num="2" name="A2" type="input"/>
-        <pin num="3" name="SDO" type="input"/>
-        <pin num="4" name="PGND" type="input"/>
-        <pin num="5" name="OUTR0" type="input"/>
-        <pin num="6" name="OUTG0" type="input"/>
-        <pin num="7" name="OUTB0" type="input"/>
-        <pin num="8" name="PGND" type="input"/>
-        <pin num="9" name="OUTR1" type="input"/>
-        <pin num="10" name="OUTG1" type="input"/>
-        <pin num="11" name="OUTB1" type="input"/>
-        <pin num="12" name="OUTR2" type="input"/>
-        <pin num="13" name="OUTG2" type="input"/>
-        <pin num="14" name="OUTB2" type="input"/>
-        <pin num="15" name="PGND" type="input"/>
-        <pin num="16" name="OUTR3" type="input"/>
-        <pin num="17" name="OUTG3" type="input"/>
-        <pin num="18" name="OUTB3" type="input"/>
-        <pin num="19" name="OUTR4" type="input"/>
-        <pin num="20" name="OUTG4" type="input"/>
-        <pin num="21" name="OUTB4" type="input"/>
-        <pin num="22" name="PGND" type="input"/>
-        <pin num="23" name="OUTR5" type="input"/>
-        <pin num="24" name="OUTG5" type="input"/>
-        <pin num="25" name="OUTB5" type="input"/>
-        <pin num="26" name="OUTR6" type="input"/>
-        <pin num="27" name="OUTG6" type="input"/>
-        <pin num="28" name="OUTB6" type="input"/>
-        <pin num="29" name="PGND" type="input"/>
-        <pin num="30" name="OUTR7" type="input"/>
-        <pin num="31" name="OUTG7" type="input"/>
-        <pin num="32" name="OUTB7" type="input"/>
-        <pin num="33" name="PGND" type="input"/>
-        <pin num="34" name="XERR" type="input"/>
-        <pin num="35" name="A3" type="input"/>
-        <pin num="36" name="A4" type="input"/>
-        <pin num="37" name="A5" type="input"/>
-        <pin num="38" name="SDI" type="input"/>
-        <pin num="39" name="TEST3" type="input"/>
-        <pin num="40" name="AGND" type="input"/>
-        <pin num="41" name="CLK" type="input"/>
-        <pin num="42" name="TEST2" type="input"/>
-        <pin num="43" name="OE" type="input"/>
-        <pin num="44" name="ISET" type="input"/>
-        <pin num="45" name="AGND" type="input"/>
-        <pin num="46" name="VCC" type="input"/>
-        <pin num="47" name="TEST1" type="input"/>
-        <pin num="48" name="A0" type="input"/>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="C">
+    <libpart lib="Device" part="C">
       <description>Unpolarized capacitor</description>
+      <docs>~</docs>
       <footprints>
         <fp>C_*</fp>
       </footprints>
@@ -281,32 +582,13 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="conn" part="Conn_01x06_Male">
-      <description>Generic connector, single row, 01x06</description>
+    <libpart lib="Device" part="LED_ALT">
+      <description>Light emitting diode, filled shape</description>
       <docs>~</docs>
       <footprints>
-        <fp>Connector*:*_??x*mm*</fp>
-        <fp>Connector*:*1x??x*mm*</fp>
-        <fp>Pin?Header?Straight?1X*</fp>
-        <fp>Pin?Header?Angled?1X*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x06_Male</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-        <pin num="4" name="Pin_4" type="passive"/>
-        <pin num="5" name="Pin_5" type="passive"/>
-        <pin num="6" name="Pin_6" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="LED_ALT">
-      <description>LED generic, alternativ symbol</description>
-      <footprints>
         <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
       </footprints>
       <fields>
         <field name="Reference">D</field>
@@ -317,25 +599,10 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="WurthElektronik" part="LED_RGB_Wurth">
-      <description>Wurth LED RGB 6 pins</description>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">LED_RGB_Wurth</field>
-      </fields>
-      <pins>
-        <pin num="1" name="BK" type="passive"/>
-        <pin num="2" name="BA" type="passive"/>
-        <pin num="3" name="GK" type="passive"/>
-        <pin num="4" name="GA" type="passive"/>
-        <pin num="5" name="RK" type="passive"/>
-        <pin num="6" name="RA" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="R">
+    <libpart lib="Device" part="R">
       <description>Resistor</description>
+      <docs>~</docs>
       <footprints>
-        <fp>R_*</fp>
         <fp>R_*</fp>
       </footprints>
       <fields>
@@ -347,20 +614,48 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="switches" part="SW_DIP_x02">
-      <description>2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+    <libpart lib="TI-addition" part="TLC6C5816">
+      <description>16-Bit Line Driver Shift Register with Diagnostics</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tlc6c5816-q1.pdf</docs>
       <footprints>
-        <fp>SW?DIP?x2*</fp>
+        <fp>TSSOP-28</fp>
+        <fp>HTSSOP-28</fp>
       </footprints>
       <fields>
-        <field name="Reference">SW</field>
-        <field name="Value">SW_DIP_x02</field>
+        <field name="Reference">U</field>
+        <field name="Value">TLC6C5816</field>
+        <field name="Footprint">Housings_SSOP:HTSSOP-28_4.4x9.7mm_Pitch0.65mm_ThermalPad</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-        <pin num="3" name="~" type="passive"/>
-        <pin num="4" name="~" type="passive"/>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="~G1" type="input"/>
+        <pin num="3" name="~G2" type="input"/>
+        <pin num="4" name="D0" type="input"/>
+        <pin num="5" name="D1" type="input"/>
+        <pin num="6" name="D2" type="input"/>
+        <pin num="7" name="D3" type="input"/>
+        <pin num="8" name="D4" type="input"/>
+        <pin num="9" name="D5" type="input"/>
+        <pin num="10" name="D6" type="input"/>
+        <pin num="11" name="D7" type="input"/>
+        <pin num="12" name="SER_IN" type="input"/>
+        <pin num="13" name="~CLR" type="input"/>
+        <pin num="14" name="~EN" type="input"/>
+        <pin num="15" name="SER_OUT" type="output"/>
+        <pin num="16" name="RCK" type="input"/>
+        <pin num="17" name="SRCK" type="input"/>
+        <pin num="18" name="D8" type="input"/>
+        <pin num="19" name="D9" type="input"/>
+        <pin num="20" name="D10" type="input"/>
+        <pin num="21" name="D11" type="input"/>
+        <pin num="22" name="D12" type="input"/>
+        <pin num="23" name="D13" type="input"/>
+        <pin num="24" name="D14" type="input"/>
+        <pin num="25" name="D15" type="input"/>
+        <pin num="26" name="N.C." type="input"/>
+        <pin num="27" name="~ERR" type="output"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="HS" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="TI-addition" part="TPS22810-Q1">
@@ -377,249 +672,264 @@
       <pins>
         <pin num="1" name="VIN" type="power_in"/>
         <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="~EN" type="input"/>
+        <pin num="3" name="EN" type="input"/>
         <pin num="4" name="CT" type="input"/>
         <pin num="5" name="QOD" type="openCol"/>
         <pin num="6" name="VOUT" type="power_out"/>
       </pins>
     </libpart>
+    <libpart lib="VCC" part="DSM7TA56105T">
+      <description>VCC One digit 7 segment green, common anode</description>
+      <footprints>
+        <fp>HDSP?7801*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DSM7TA56105T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="input"/>
+        <pin num="2" name="D" type="input"/>
+        <pin num="3" name="CA" type="input"/>
+        <pin num="4" name="C" type="input"/>
+        <pin num="5" name="DP" type="input"/>
+        <pin num="6" name="B" type="input"/>
+        <pin num="7" name="A" type="input"/>
+        <pin num="8" name="CA" type="input"/>
+        <pin num="9" name="F" type="input"/>
+        <pin num="10" name="G" type="input"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>E:\Utilities\KiCAD\share\kicad\library\device.lib</uri>
+    <library logical="Connector_Generic">
+      <uri>E:\Utilities\KiCad\share\kicad\library/Connector_Generic.lib</uri>
     </library>
-    <library logical="switches">
-      <uri>E:\Utilities\KiCAD\share\kicad\library\switches.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>E:\Utilities\KiCAD\share\kicad\library\conn.lib</uri>
-    </library>
-    <library logical="WurthElektronik">
-      <uri>E:\Projects\GitHub\FSAE-Dash-Warning-Panel\WurthElektronik.lib</uri>
+    <library logical="Device">
+      <uri>E:\Utilities\KiCad\share\kicad\library/Device.lib</uri>
     </library>
     <library logical="TI-addition">
-      <uri>E:\Projects\GitHub\FSAE-Dash-Warning-Panel\TI-addition.lib</uri>
+      <uri>E:\Projects\GitHub\FSAE-Dash-Warning-Panel/TI-addition.lib</uri>
     </library>
-    <library logical="ROHM">
-      <uri>E:\Projects\GitHub\FSAE-Dash-Warning-Panel\ROHM.lib</uri>
+    <library logical="VCC">
+      <uri>E:\Projects\GitHub\FSAE-Dash-Warning-Panel/VCC.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/OE">
-      <node ref="R3" pin="1"/>
-      <node ref="U1" pin="43"/>
-      <node ref="SW1" pin="1"/>
+    <net code="1" name="/D7">
+      <node ref="U1" pin="9"/>
+      <node ref="R7" pin="2"/>
     </net>
-    <net code="2" name="Net-(C6-Pad2)">
-      <node ref="U3" pin="4"/>
-      <node ref="C6" pin="2"/>
+    <net code="2" name="/D6">
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="8"/>
     </net>
-    <net code="3" name="Net-(D9-Pad1)">
-      <node ref="R4" pin="1"/>
-      <node ref="D9" pin="1"/>
-    </net>
-    <net code="4" name="Net-(R5-Pad2)">
+    <net code="3" name="/D5">
       <node ref="R5" pin="2"/>
-      <node ref="U3" pin="5"/>
+      <node ref="U1" pin="7"/>
     </net>
-    <net code="5" name="Net-(R1-Pad1)">
-      <node ref="U1" pin="44"/>
-      <node ref="R1" pin="1"/>
+    <net code="4" name="/D4">
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="6"/>
     </net>
-    <net code="6" name="Net-(R2-Pad2)">
-      <node ref="U1" pin="34"/>
+    <net code="5" name="/D3">
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="6" name="/D2">
+      <node ref="U1" pin="4"/>
       <node ref="R2" pin="2"/>
     </net>
-    <net code="7" name="/SDO">
+    <net code="7" name="/D8">
+      <node ref="U1" pin="10"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="8" name="/c">
+      <node ref="U1" pin="22"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="9" name="/a">
+      <node ref="R11" pin="2"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="10" name="/b">
+      <node ref="R12" pin="2"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="11" name="/d">
+      <node ref="R14" pin="2"/>
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="12" name="/e">
+      <node ref="R15" pin="2"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="13" name="/f">
+      <node ref="U1" pin="19"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="14" name="/g">
+      <node ref="R17" pin="2"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="19" name="/D9">
+      <node ref="R9" pin="2"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="20" name="Net-(D10-Pad5)">
+      <node ref="D10" pin="5"/>
+    </net>
+    <net code="21" name="/c_h">
+      <node ref="D10" pin="4"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="22" name="/d_h">
+      <node ref="R14" pin="1"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="23" name="/e_h">
+      <node ref="D10" pin="1"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="24" name="/b_h">
+      <node ref="D10" pin="6"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="25" name="/a_h">
+      <node ref="D10" pin="7"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="26" name="/D1_h">
+      <node ref="D1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="27" name="/D7_h">
+      <node ref="R7" pin="1"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="28" name="/D5_h">
+      <node ref="D5" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="29" name="/D3_h">
+      <node ref="D3" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="30" name="/f_h">
+      <node ref="R16" pin="1"/>
+      <node ref="D10" pin="9"/>
+    </net>
+    <net code="31" name="GND">
+      <node ref="U1" pin="14"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="29"/>
+      <node ref="U1" pin="28"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="32" name="/CLR">
+      <node ref="U1" pin="13"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="33" name="/SCLK">
+      <node ref="J1" pin="8"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="34" name="Net-(C6-Pad2)">
+      <node ref="U2" pin="4"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="35" name="/SDI">
+      <node ref="U1" pin="12"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="36" name="/VCC">
+      <node ref="J1" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="37" name="/LED_Power">
+      <node ref="D10" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="D10" pin="8"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="38" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="39" name="/G">
+      <node ref="U1" pin="2"/>
       <node ref="U1" pin="3"/>
       <node ref="J1" pin="4"/>
     </net>
-    <net code="8" name="/G5">
-      <node ref="D6" pin="5"/>
-      <node ref="U1" pin="24"/>
+    <net code="40" name="/RCLK">
+      <node ref="U1" pin="16"/>
+      <node ref="J1" pin="7"/>
     </net>
-    <net code="9" name="/B5">
-      <node ref="D6" pin="1"/>
-      <node ref="U1" pin="25"/>
-    </net>
-    <net code="10" name="/R6">
-      <node ref="D7" pin="3"/>
-      <node ref="U1" pin="26"/>
-    </net>
-    <net code="11" name="/G6">
-      <node ref="U1" pin="27"/>
-      <node ref="D7" pin="5"/>
-    </net>
-    <net code="12" name="/B6">
-      <node ref="D7" pin="1"/>
-      <node ref="U1" pin="28"/>
-    </net>
-    <net code="13" name="/R7">
-      <node ref="D8" pin="3"/>
-      <node ref="U1" pin="30"/>
-    </net>
-    <net code="14" name="/G7">
-      <node ref="D8" pin="5"/>
-      <node ref="U1" pin="31"/>
-    </net>
-    <net code="15" name="/B7">
-      <node ref="D8" pin="1"/>
-      <node ref="U1" pin="32"/>
-    </net>
-    <net code="16" name="/EN">
-      <node ref="U3" pin="3"/>
-      <node ref="R6" pin="2"/>
-      <node ref="SW1" pin="2"/>
-    </net>
-    <net code="17" name="/CLK">
-      <node ref="U1" pin="41"/>
-      <node ref="J1" pin="6"/>
-    </net>
-    <net code="18" name="/SDI">
-      <node ref="U1" pin="38"/>
-      <node ref="J1" pin="5"/>
-    </net>
-    <net code="19" name="/MC">
-      <node ref="R4" pin="2"/>
+    <net code="41" name="/NEUT">
       <node ref="J1" pin="3"/>
-    </net>
-    <net code="20" name="/VCC">
-      <node ref="U1" pin="46"/>
-      <node ref="R6" pin="1"/>
-      <node ref="U3" pin="1"/>
-      <node ref="J1" pin="1"/>
-      <node ref="C7" pin="1"/>
-      <node ref="R2" pin="1"/>
-      <node ref="C5" pin="2"/>
       <node ref="R1" pin="2"/>
-      <node ref="C1" pin="1"/>
-      <node ref="R3" pin="2"/>
     </net>
-    <net code="21" name="/B1">
-      <node ref="U1" pin="11"/>
+    <net code="42" name="/D2_h">
+      <node ref="R2" pin="1"/>
       <node ref="D2" pin="1"/>
     </net>
-    <net code="22" name="/B2">
-      <node ref="U1" pin="14"/>
-      <node ref="D3" pin="1"/>
-    </net>
-    <net code="23" name="/R5">
-      <node ref="U1" pin="23"/>
-      <node ref="D6" pin="3"/>
-    </net>
-    <net code="24" name="/G2">
-      <node ref="D3" pin="5"/>
-      <node ref="U1" pin="13"/>
-    </net>
-    <net code="25" name="/R2">
-      <node ref="U1" pin="12"/>
-      <node ref="D3" pin="3"/>
-    </net>
-    <net code="26" name="/B4">
-      <node ref="U1" pin="21"/>
-      <node ref="D5" pin="1"/>
-    </net>
-    <net code="27" name="/G4">
-      <node ref="D5" pin="5"/>
-      <node ref="U1" pin="20"/>
-    </net>
-    <net code="28" name="/R1">
-      <node ref="U1" pin="9"/>
-      <node ref="D2" pin="3"/>
-    </net>
-    <net code="29" name="/B0">
-      <node ref="U1" pin="7"/>
-      <node ref="D1" pin="1"/>
-    </net>
-    <net code="30" name="/G0">
-      <node ref="D1" pin="5"/>
-      <node ref="U1" pin="6"/>
-    </net>
-    <net code="31" name="/R0">
-      <node ref="U1" pin="5"/>
-      <node ref="D1" pin="3"/>
-    </net>
-    <net code="32" name="/GND">
-      <node ref="U1" pin="2"/>
-      <node ref="U1" pin="22"/>
-      <node ref="U1" pin="47"/>
-      <node ref="U1" pin="48"/>
-      <node ref="U1" pin="29"/>
-      <node ref="U1" pin="39"/>
-      <node ref="U1" pin="1"/>
-      <node ref="C2" pin="2"/>
-      <node ref="U1" pin="40"/>
-      <node ref="C3" pin="2"/>
-      <node ref="U1" pin="37"/>
-      <node ref="U1" pin="35"/>
-      <node ref="U1" pin="4"/>
-      <node ref="U1" pin="42"/>
-      <node ref="U1" pin="36"/>
-      <node ref="U1" pin="45"/>
-      <node ref="U1" pin="33"/>
-      <node ref="U1" pin="8"/>
-      <node ref="U1" pin="15"/>
-      <node ref="C5" pin="1"/>
-      <node ref="C6" pin="1"/>
-      <node ref="C7" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="J1" pin="2"/>
-      <node ref="SW1" pin="3"/>
-      <node ref="SW1" pin="4"/>
-      <node ref="U3" pin="2"/>
-    </net>
-    <net code="33" name="/B3">
-      <node ref="U1" pin="18"/>
+    <net code="43" name="/D4_h">
       <node ref="D4" pin="1"/>
+      <node ref="R4" pin="1"/>
     </net>
-    <net code="34" name="/G3">
-      <node ref="U1" pin="17"/>
-      <node ref="D4" pin="5"/>
+    <net code="44" name="/g_h">
+      <node ref="R17" pin="1"/>
+      <node ref="D10" pin="10"/>
     </net>
-    <net code="35" name="/R3">
-      <node ref="U1" pin="16"/>
-      <node ref="D4" pin="3"/>
+    <net code="45" name="/D6_h">
+      <node ref="D6" pin="1"/>
+      <node ref="R6" pin="1"/>
     </net>
-    <net code="36" name="/G1">
-      <node ref="U1" pin="10"/>
-      <node ref="D2" pin="5"/>
+    <net code="46" name="/D9_h">
+      <node ref="D9" pin="1"/>
+      <node ref="R9" pin="1"/>
     </net>
-    <net code="37" name="/LED_Power">
-      <node ref="D5" pin="6"/>
-      <node ref="D9" pin="2"/>
-      <node ref="U3" pin="6"/>
-      <node ref="D5" pin="4"/>
-      <node ref="D5" pin="2"/>
-      <node ref="D4" pin="2"/>
-      <node ref="D4" pin="4"/>
-      <node ref="C3" pin="1"/>
-      <node ref="D4" pin="6"/>
-      <node ref="C2" pin="1"/>
-      <node ref="D6" pin="2"/>
-      <node ref="D7" pin="2"/>
-      <node ref="D7" pin="4"/>
-      <node ref="D6" pin="6"/>
-      <node ref="D3" pin="2"/>
-      <node ref="D6" pin="4"/>
-      <node ref="D3" pin="4"/>
-      <node ref="C4" pin="1"/>
-      <node ref="D3" pin="6"/>
-      <node ref="D7" pin="6"/>
-      <node ref="R5" pin="1"/>
-      <node ref="D2" pin="2"/>
-      <node ref="D2" pin="4"/>
-      <node ref="D2" pin="6"/>
-      <node ref="D1" pin="2"/>
-      <node ref="D1" pin="4"/>
-      <node ref="D1" pin="6"/>
-      <node ref="D8" pin="6"/>
-      <node ref="D8" pin="2"/>
-      <node ref="D8" pin="4"/>
-    </net>
-    <net code="38" name="/R4">
-      <node ref="U1" pin="19"/>
-      <node ref="D5" pin="3"/>
+    <net code="47" name="/D8_h">
+      <node ref="R8" pin="1"/>
+      <node ref="D8" pin="1"/>
     </net>
   </nets>
 </export>
