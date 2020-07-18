@@ -11,6 +11,12 @@ D TLC6C598 Shift Register
 K 8bit Shift Register
 $ENDCMP
 #
+$CMP TLV741P
+D TI 150mA 3.3V Fixed LDO linear regulator 1% SOT-23-5
+K LDO Regulator
+F https://www.ti.com/lit/ds/symlink/tlv741p.pdf
+$ENDCMP
+#
 $CMP TPS22810-Q1
 D Single power-distribution switcher
 K 1-chanel power-distribution USB

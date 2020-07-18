@@ -87,8 +87,6 @@ F 7 "Wire Solder Points" H 1950 3600 50  0001 C CNN "Description"
 $EndComp
 Wire Wire Line
 	2350 3300 2150 3300
-Wire Wire Line
-	2350 1000 2350 2650
 $Comp
 L Device:LED_ALT D2
 U 1 1 5BB92C7F
@@ -1128,12 +1126,6 @@ Wire Wire Line
 	2400 3950 4850 3950
 Wire Wire Line
 	2150 4000 4800 4000
-Wire Wire Line
-	4100 2650 2350 2650
-Connection ~ 4100 2650
-Connection ~ 2350 2650
-Wire Wire Line
-	2350 2650 2350 3000
 Text Label 2350 3800 2    60   ~ 0
 CLR
 $Comp
@@ -1163,16 +1155,67 @@ Wire Wire Line
 	2950 3400 2550 3400
 Connection ~ 2550 3400
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0106
 U 1 1 5EF8AEF3
 P 5450 4250
-F 0 "#PWR?" H 5450 4000 50  0001 C CNN
+F 0 "#PWR0106" H 5450 4000 50  0001 C CNN
 F 1 "GND" H 5455 4077 50  0000 C CNN
 F 2 "" H 5450 4250 50  0001 C CNN
 F 3 "" H 5450 4250 50  0001 C CNN
 	1    5450 4250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2350 1000 2350 2650
+$Comp
+L TI-addition:TLV741P U3
+U 1 1 5F3CBD45
+P 3400 2750
+F 0 "U3" H 3425 3115 50  0000 C CNN
+F 1 "TLV741P" H 3425 3024 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 3400 2400 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tlv741p.pdf" H 3000 2850 50  0001 C CNN
+F 4 "IC REG LINEAR 3.3V 150MA SOT23-5" H 3400 2750 50  0001 C CNN "Description"
+F 5 "296-48987-1-ND" H 3400 2750 50  0001 C CNN "Digikey P/N"
+F 6 "TI" H 3400 2750 50  0001 C CNN "MFG"
+F 7 "TLV74133PDBVR" H 3400 2750 50  0001 C CNN "P/N"
+	1    3400 2750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3850 2850
+Wire Wire Line
+	3850 2650 4100 2650
+Connection ~ 4100 2650
+Wire Wire Line
+	3000 2650 2900 2650
+Connection ~ 2350 2650
+Wire Wire Line
+	2350 2650 2350 3000
+Wire Wire Line
+	3000 2850 2900 2850
+Wire Wire Line
+	2900 2850 2900 2650
+Connection ~ 2900 2650
+Wire Wire Line
+	2900 2650 2350 2650
+Wire Wire Line
+	3000 2750 2950 2750
+Wire Wire Line
+	2950 2750 2950 3400
+Connection ~ 2950 3400
+$Comp
+L power:+3.3V #PWR0107
+U 1 1 5F3F700F
+P 4100 2500
+F 0 "#PWR0107" H 4100 2350 50  0001 C CNN
+F 1 "+3.3V" H 4115 2673 50  0000 C CNN
+F 2 "" H 4100 2500 50  0001 C CNN
+F 3 "" H 4100 2500 50  0001 C CNN
+	1    4100 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2500 4100 2650
 Wire Bus Line
 	4700 4850 6750 4850
 Wire Bus Line
