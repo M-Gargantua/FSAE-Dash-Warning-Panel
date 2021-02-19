@@ -818,10 +818,6 @@ Text Label 7350 2500 0    50   ~ 0
 D8_h
 Text Label 7350 2150 0    50   ~ 0
 D9_h
-Entry Wire Line
-	6750 2400 6850 2500
-Entry Wire Line
-	6750 2750 6850 2850
 Wire Wire Line
 	7800 4600 8000 4600
 Wire Wire Line
@@ -859,16 +855,6 @@ Wire Wire Line
 Connection ~ 8000 4250
 Wire Wire Line
 	8000 4250 8000 3900
-Entry Wire Line
-	6750 3100 6850 3200
-Entry Wire Line
-	6750 3450 6850 3550
-Entry Wire Line
-	6750 3800 6850 3900
-Entry Wire Line
-	6750 4150 6850 4250
-Entry Wire Line
-	6750 4500 6850 4600
 Wire Wire Line
 	6850 4600 7050 4600
 Wire Wire Line
@@ -886,7 +872,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 2150 6850 2150
 Entry Wire Line
-	6750 2050 6850 2150
+	6750 2250 6850 2150
 Entry Bus Bus
 	5700 4850 5800 4950
 NoConn ~ 6100 3950
@@ -1216,6 +1202,20 @@ F 3 "" H 4100 2500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4100 2500 4100 2650
+Entry Wire Line
+	6750 2600 6850 2500
+Entry Wire Line
+	6750 2950 6850 2850
+Entry Wire Line
+	6750 3300 6850 3200
+Entry Wire Line
+	6750 3650 6850 3550
+Entry Wire Line
+	6750 4000 6850 3900
+Entry Wire Line
+	6750 4350 6850 4250
+Entry Wire Line
+	6750 4700 6850 4600
 Wire Bus Line
 	4700 4850 6750 4850
 Wire Bus Line
@@ -1223,7 +1223,7 @@ Wire Bus Line
 Wire Bus Line
 	6400 3150 6400 4750
 Wire Bus Line
-	6750 2050 6750 4850
+	6750 2250 6750 4850
 Wire Bus Line
 	4700 3050 4700 4850
 $EndSCHEMATC
