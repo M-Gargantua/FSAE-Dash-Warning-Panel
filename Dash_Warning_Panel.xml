@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>E:\Projects\GitHub\FSAE-Dash-Warning-Panel\Dash_Warning_Panel.sch</source>
-    <date>7/18/2020 3:01:07 PM</date>
-    <tool>Eeschema (5.1.4)-1</tool>
+    <source>H:\FSAE-Dash-Warning-Panel\Dash_Warning_Panel.sch</source>
+    <date>3/1/2021 10:44:21 PM</date>
+    <tool>Eeschema (5.1.9)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -733,16 +733,16 @@
   </libparts>
   <libraries>
     <library logical="Connector_Generic">
-      <uri>E:\Utilities\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
     </library>
     <library logical="Device">
-      <uri>E:\Utilities\KiCad\share\kicad\library/Device.lib</uri>
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
     </library>
     <library logical="TI-addition">
-      <uri>E:\Projects\GitHub\FSAE-Dash-Warning-Panel/TI-addition.lib</uri>
+      <uri>H:\FSAE-Dash-Warning-Panel/TI-addition.lib</uri>
     </library>
     <library logical="VCC">
-      <uri>E:\Projects\GitHub\FSAE-Dash-Warning-Panel/VCC.lib</uri>
+      <uri>H:\FSAE-Dash-Warning-Panel/VCC.lib</uri>
     </library>
   </libraries>
   <nets>

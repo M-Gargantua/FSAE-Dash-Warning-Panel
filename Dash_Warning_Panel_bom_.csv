@@ -1,29 +1,14 @@
-Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,P/N,MFG,Digikey P/N
-1,Unpolarized capacitor,C,C8,0.1uF,C_0603,1,https://api.kemet.com/component-edge/download/datasheet/C0603C104M4RACTU.pdf,C0603C104M4RACTU,KEMET,399-1099-1-ND
-2,Unpolarized capacitor,C,C1 C2 C3 C4 C5 C6 C7,1uF,C_0603,7,,C0603C105K4RACTU,KEMET,399-7847-1-ND
-3,"VCC One digit 7 segment green, common anode",DSM7TA56105T,D10,DSM7TA56105T,DSM77TA56105T,1,https://vcclite.com/wp-content/uploads/wpallimport/files/files/DSM7TA56105T.pdf,DSM7TA56105T,VCC,DSM7TA56105TCT-ND
-4,"Light emitting diode, filled shape",LED_ALT,D1,LCB G6SP,PLCC-6_THERM_MOD,1,https://dammedia.osram.info/media/resource/hires/osram-dam-6030625/LCB%20G6SP_EN.pdf,LCB G6SP-DBFA-4J5L-0-140-R18-Z,OSRAM,475-3674-1-ND
-5,"Light emitting diode, filled shape",LED_ALT,D3 D4 D5,SM1206NHC-IL,LED_1206,3,https://www.bivar.com/Portals/0/Products/SM1206NHC-IL.pdf,SM1206NHC-IL,BIVAR,492-1944-1-ND
-6,"Light emitting diode, filled shape",LED_ALT,D7 D8 D9,SM1206NPGC-IL,LED_1206,3,https://www.bivar.com/parts_content/Datasheets/SM1206NPGC-IL.pdf,SM1206NPGC-IL,BIVAR,492-1945-1-ND
-7,"Light emitting diode, filled shape",LED_ALT,D2 D6,SM1206NYC-IL,LED_1206,2,https://www.bivar.com/Files/Datasheets/SM1206NYC-IL.pdf,SM1206NYC-IL,BIVAR,492-1947-1-ND
-8,"Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x08,J1,Conn,8wireConn,1,N/A,N/A,N/A,N/A
-9,Resistor,R,R1,11,R_1210,1,http://www.vishay.com/docs/20035/dcrcwe3.pdf,CRCW121011R0FKEA,Vishay,541-11.0AACT-ND
-10,Resistor,R,R2 R3 R4 R5 R6 R7 R8 R9 R10 R11 R12 R13 R14 R15 R16 R17,120,R_0603,16,https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf,RMCF0603FT120R,Stackpole,RMCF0603FT120RCT-ND
-11,16-Bit Line Driver Shift Register with Diagnostics,TLC6C5816,U1,TLC6C5816,HTSSOP-28_4.4x9.7mm_Pitch0.65mm_ThermalPad,1,https://www.ti.com/lit/ds/symlink/tlc6c5816-q1.pdf,TLC6C5816QPWPRQ1,TI,296-51674-1-ND
-12,TI 150mA 3.3V Fixed LDO linear regulator 1% SOT-23-5,TLV741P,U3,TLV741P,SOT-23-5,1,https://www.ti.com/lit/ds/symlink/tlv741p.pdf,TLV74133PDBVR,TI,296-48987-1-ND
-13,Single power-distribution switcher,TPS22810-Q1,U2,TPS22810,SOT-23-6,1,https://www.ti.com/lit/ds/symlink/tps22810.pdf,TPS22810DBVR,TI,296-45297-1-ND
-
-
-
-
-
-Component Groups:,13
-Component Count:,39
-Fitted Components:,39
-Number of PCBs:,1
-Total components:,39
-Schematic Version:,
-Schematic Date:,
-BoM Date:,7/18/2020 3:01:07 PM
-Schematic Source:,E:\Projects\GitHub\FSAE-Dash-Warning-Panel\Dash_Warning_Panel.sch
-KiCad Version:,Eeschema (5.1.4)-1
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,P/N,MFG,Sheetpath,Digikey P/N
+1,Unpolarized capacitor,C,C8,0.1uF,C_0603,1,https://api.kemet.com/component-edge/download/datasheet/C0603C104M4RACTU.pdf,C0603C104M4RACTU,KEMET,/,399-1099-1-ND
+2,Unpolarized capacitor,C,C1 C2 C3 C4 C5 C6 C7,1uF,C_0603,7,,C0603C105K4RACTU,KEMET,/,399-7847-1-ND
+3,"VCC One digit 7 segment green, common anode",DSM7TA56105T,D10,DSM7TA56105T,DSM77TA56105T,1,https://vcclite.com/wp-content/uploads/wpallimport/files/files/DSM7TA56105T.pdf,DSM7TA56105T,VCC,/,DSM7TA56105TCT-ND
+4,"Light emitting diode, filled shape",LED_ALT,D1,LCB G6SP,PLCC-6_THERM_MOD,1,https://dammedia.osram.info/media/resource/hires/osram-dam-6030625/LCB%20G6SP_EN.pdf,LCB G6SP-DBFA-4J5L-0-140-R18-Z,OSRAM,/,475-3674-1-ND
+5,"Light emitting diode, filled shape",LED_ALT,D3 D4 D5,SM1206NHC-IL,LED_1206,3,https://www.bivar.com/Portals/0/Products/SM1206NHC-IL.pdf,SM1206NHC-IL,BIVAR,/,492-1944-1-ND
+6,"Light emitting diode, filled shape",LED_ALT,D7 D8 D9,SM1206NPGC-IL,LED_1206,3,https://www.bivar.com/parts_content/Datasheets/SM1206NPGC-IL.pdf,SM1206NPGC-IL,BIVAR,/,492-1945-1-ND
+7,"Light emitting diode, filled shape",LED_ALT,D2 D6,SM1206NYC-IL,LED_1206,2,https://www.bivar.com/Files/Datasheets/SM1206NYC-IL.pdf,SM1206NYC-IL,BIVAR,/,492-1947-1-ND
+8,"Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x08,J1,Conn,8wireConn,1,N/A,N/A,N/A,/,N/A
+9,Resistor,R,R1,11,R_1210,1,http://www.vishay.com/docs/20035/dcrcwe3.pdf,CRCW121011R0FKEA,Vishay,/,541-11.0AACT-ND
+10,Resistor,R,R2 R3 R4 R5 R6 R7 R8 R9 R10 R11 R12 R13 R14 R15 R16 R17,120,R_0603,16,https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf,RMCF0603FT120R,Stackpole,/,RMCF0603FT120RCT-ND
+11,16-Bit Line Driver Shift Register with Diagnostics,TLC6C5816,U1,TLC6C5816,HTSSOP-28_4.4x9.7mm_Pitch0.65mm_ThermalPad,1,https://www.ti.com/lit/ds/symlink/tlc6c5816-q1.pdf,TLC6C5816QPWPRQ1,TI,/,296-51674-1-ND
+12,TI 150mA 3.3V Fixed LDO linear regulator 1% SOT-23-5,TLV741P,U3,TLV741P,SOT-23-5,1,https://www.ti.com/lit/ds/symlink/tlv741p.pdf,TLV74133PDBVR,TI,/,296-48987-1-ND
+13,Single power-distribution switcher,TPS22810-Q1,U2,TPS22810,SOT-23-6,1,https://www.ti.com/lit/ds/symlink/tps22810.pdf,TPS22810DBVR,TI,/,296-45297-1-ND
